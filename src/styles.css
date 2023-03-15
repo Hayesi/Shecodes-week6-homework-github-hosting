@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.842);
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(3, 29, 117);
+}
+
+h6 {
+  color: rgba(255, 255, 255, 0.925);
+}
+
+.text-bg-dark {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  opacity: 0.95;
+}
+
+.main-city-temp {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.842);
+  position: relative;
+  bottom: 15px;
+  right: 5px;
+}
+
+.unit {
+  font-size: 20px;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+.col-two {
+  position: relative;
+  bottom: 25px;
+  left: 400px;
+}
+
+.navbar {
+  background-color: #0da1e63b;
+  position: relative;
+  top: 10px;
+}
+.form-control {
+  background-color: rgba(149, 235, 206, 0.356);
+}
+
+.form-inline input::placeholder {
+  color: rgb(8, 45, 167);
+}
+
+.btn-outline-one {
+  background-color: rgba(9, 78, 78, 0.418);
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-two {
+  background-color: rgba(31, 9, 78, 0.418);
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 10px;
+}

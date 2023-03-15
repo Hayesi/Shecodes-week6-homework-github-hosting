@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Plus-W5-search-Engine-homework</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card text-bg-dark">
+        <img
+          src="Media/sky-cloud-cloudscape-sunset.jpeg"
+          class="card-img"
+          alt="clouds"
+        />
+        <div class="card-img-overlay">
+          <h1 class="searched-temp">
+            <span class="main-city-temp" id="temp">8 </span>
+            <span class="unit">°C</span>
+          </h1>
+          <div>
+            <h2 id="maincity"></h2>
+            <h5 id="newdate"></h5>
+            <h6 id="condition">clouds</h6>
+          </div>
+          <div class="col-two">
+            <h6 class="humidity">humidity: 5%</h6>
+            <h6 class="Wind">Wind: 4 km/h</h6>
+          </div>
+          <nav class="navbar navbar-light">
+            <form class="form-inline" id="cityinput">
+              <input
+                id="input-search"
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Type a city"
+                aria-label="Search"
+              />
+              <span>
+                <button
+                  id="button-one"
+                  class="btn btn-outline-one"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </span>
+              <span>
+                <button
+                  id="button-two"
+                  class="btn btn-outline-two"
+                  type="submit"
+                >
+                  Current
+                </button>
+              </span>
+            </form>
+          </nav>
+        </div>
+      </div>
+      <small
+        ><a
+          href="https://github.com/Hayesi/shecodes-plus-week6-github-hosting-from-week5-search-engine-homework"
+          target="_blank"
+          >Open-source code</a
+        >, by Azi Essie</small
+      >
+    </div>
+  </body>
+</html>
